@@ -8,6 +8,9 @@ Standalone mode provides the same functionality as the Burp Suite extension, but
 
 A command-line option is also available to convert PEM formatted public and private keys to JWK format.
 
+## Building
+Package the application using`$ mvn package`. The generated Jar file can then be loaded in Burp (Extensions ==> Installed ==> Add)
+
 ## Keys View
 <img src="gitimg/keys.png" width="600"/>
 

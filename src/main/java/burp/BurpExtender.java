@@ -86,7 +86,7 @@ public class BurpExtender implements IBurpExtender, IMessageEditorTabFactory, IH
 
             // If there are JWE or JWSs in the message, highlight the entry in HTTP History and set the count in the comment
             if(jweCount + jwsCount > 0){
-                messageInfo.setHighlight("green");
+                //messageInfo.setHighlight("green");
                 messageInfo.setComment(String.format(Utils.getResourceString("burp_proxy_comment"), jwsCount, jweCount));
             }
         }
